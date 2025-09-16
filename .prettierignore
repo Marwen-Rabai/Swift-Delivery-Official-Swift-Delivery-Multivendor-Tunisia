@@ -1,0 +1,15 @@
+node_modules/
+.next/
+dist/
+coverage/
+.env*
+!.env.example
+*.log
+build/
+.expo/
+android/
+ios/
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

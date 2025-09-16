@@ -1,0 +1,53 @@
+name: CD
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js 18
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18.x
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci --no-audit --prefer-offline
+    
+    - name: Build all apps
+      run: npm run build:all
+    
+    - name: Deploy to staging
+      run: echo "Deploy to staging environment"
+      # Add actual deployment steps here
+    
+  release:
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js 18
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18.x
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci --no-audit --prefer-offline
+    
+    - name: Build all apps
+      run: npm run build:all
+    
+    - name: Create release
+      run: echo "Create production release"
+      # Add actual release steps here
