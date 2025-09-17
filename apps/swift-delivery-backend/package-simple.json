@@ -1,0 +1,26 @@
+{
+  "name": "swift-delivery-backend-simple",
+  "version": "1.0.0",
+  "description": "Swift Delivery Backend - Simplified Production Ready Version",
+  "main": "server-simple.js",
+  "scripts": {
+    "start": "node server-simple.js",
+    "dev": "node server-simple.js",
+    "test": "echo \"Backend is ready for testing\"",
+    "health": "curl http://localhost:8000/health"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1"
+  },
+  "author": "Marwen Rabai <marwenrabai6@gmail.com> (https://marwen-rabai.netlify.app)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
