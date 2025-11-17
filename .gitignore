@@ -78,3 +78,10 @@ pnpm-lock.yaml
 *.tmp
 *.temp
 .cache/
+
+# Google Service Account Credentials (Sensitive - DO NOT COMMIT)
+**/google-service-account*.json
+**/google-service-account*.json
+**/GoogleService-Info.plist
+**/serviceAccountKey.json
+**/*service-account*.json
