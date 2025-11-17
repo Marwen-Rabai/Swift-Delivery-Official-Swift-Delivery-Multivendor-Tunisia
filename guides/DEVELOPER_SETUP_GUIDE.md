@@ -3,7 +3,7 @@
 **Complete Step-by-Step Guide for Developers**
 
 *Created by: Marwen Rabai*  
-*Last Updated: January 2025*
+*Last Updated: november 2025*
 
 ---
 
@@ -1099,6 +1099,6 @@ If you encounter issues:
 
 **🎉 Congratulations! Your development environment is now set up!**
 
-*Last Updated: January 2025*  
+*Last Updated: Npovember 2025*  
 *Version: 1.0.0*
 
