@@ -86,6 +86,7 @@ Swift Delivery Tunisia est une **plateforme premium de livraison multi-vendeurs*
 | **📚 Guide Complet** | Tous | Complet | 2h | [COMPLETE_USAGE_GUIDE.md](./guides/COMPLETE_USAGE_GUIDE.md) |
 | **👨‍💼 Guide Admin** | Administrateurs | Avancé | 3h | [ADMIN_MANAGEMENT_GUIDE.md](./guides/ADMIN_MANAGEMENT_GUIDE.md) |
 | **🔧 Guide Développeur** | Développeurs | Expert | 6h | [DEVELOPER_CONFIG.md](./guides/DEVELOPER_CONFIG.md) |
+| **⚙️ Guide Setup Développeur** | Développeurs | Débutant | 2h | [DEVELOPER_SETUP_GUIDE.md](./guides/DEVELOPER_SETUP_GUIDE.md) |
 | **🏆 Guide Professionnel** | Business | Complet | 4h | [COMPLETE_PROFESSIONAL_GUIDE.md](./guides/COMPLETE_PROFESSIONAL_GUIDE.md) |
 | **🔥 Fonctionnalités** | Tous | Avancé | 1h | [IMPRESSIVE_FEATURES.md](./guides/IMPRESSIVE_FEATURES.md) |
 | **✅ Validation** | Tous | Technique | 30 min | [FINAL_VALIDATION_REPORT.md](./guides/FINAL_VALIDATION_REPORT.md) |
