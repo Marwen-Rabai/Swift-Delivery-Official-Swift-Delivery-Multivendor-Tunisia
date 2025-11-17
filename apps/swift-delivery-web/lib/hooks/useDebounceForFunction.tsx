@@ -1,3 +1,5 @@
+"use client";
+
 import { useRef, useCallback } from "react";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */

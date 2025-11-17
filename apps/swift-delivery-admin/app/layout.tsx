@@ -3,7 +3,7 @@ import { getLocale, getMessages } from 'next-intl/server';
 
 // ✅ Add metadata export for favicon
 export const metadata = {
-  title: 'Enatega Admin Dashboard',
+  title: 'Swift Delivery Admin',
   icons: {
     icon: '/favicon.png',
     // You can add more like:

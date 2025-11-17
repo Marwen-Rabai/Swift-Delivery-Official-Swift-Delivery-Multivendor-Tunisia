@@ -2,8 +2,8 @@ import createNextIntlPlugin from "next-intl/plugin";
 import PWA from 'next-pwa';
 
 const withPWA = PWA({
-    skipWaiting: false,
-    register:false,
+    skipWaiting: true,
+    register: false,
     dest:'public',
     // disable: process.env.NODE_ENV === 'development',
     swSrc: 'public/serviceWorker.js', // Or service-worker.ts if using TS & custom build process

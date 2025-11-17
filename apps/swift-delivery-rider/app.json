@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Enatega Multivendor Rider",
-    "description": "Enatega is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
+    "name": "Swift Delivery Rider",
+    "description": "Swift Delivery Rider is a modern delivery driver app built in React Native using Expo for IOS and Android. It helps delivery drivers efficiently manage orders, track deliveries, and optimize routes for faster service.",
     "version": "1.1.62",
-    "slug": "food-delivery-rider-multivendor",
+    "slug": "swift-delivery-rider",
     "orientation": "portrait",
     "splash": {
       "image": "./lib/assets/images/black.png",
@@ -48,7 +48,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.enatega.multirider",
+      "bundleIdentifier": "com.swift.delivery.rider",
       "config": {
         "googleMapsApiKey": "AIzaSyCcm7_Wd7uvmC9YnYLu2JHGWPt6z1MaL1E"
       },
@@ -75,7 +75,7 @@
           "apiKey": "AIzaSyCcm7_Wd7uvmC9YnYLu2JHGWPt6z1MaL1E"
         }
       },
-      "package": "com.enatega.multirider",
+      "package": "com.swift.delivery.rider",
       "icon": "./lib/assets/images/appIcon.png",
       "adaptiveIcon": {
         "foregroundImage": "./lib/assets/images/appIcon.png",

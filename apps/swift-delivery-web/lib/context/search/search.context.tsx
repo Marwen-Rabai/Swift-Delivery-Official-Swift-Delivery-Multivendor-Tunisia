@@ -1,3 +1,5 @@
+"use client";
+
 import { ISearchContext } from "@/lib/utils/interfaces/search.interface";
 import React, { useContext, useState } from "react";
 import { IRestaurant } from "@/lib/utils/interfaces";

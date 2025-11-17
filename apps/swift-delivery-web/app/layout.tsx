@@ -8,7 +8,7 @@ import Script from "next/script";
 
 
 export const metadata = {
-  title: "Enatega Multivendor",
+  title: "Swift Delivery",
   manifest:"/manifest.json",
 };
 

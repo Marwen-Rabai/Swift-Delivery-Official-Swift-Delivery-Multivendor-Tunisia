@@ -217,8 +217,6 @@ export const UserProvider: React.FC<{ children: ReactNode }> = (props) => {
     },
   ] = useLazyQuery(GET_USER_PROFILE, {
     fetchPolicy: "network-only",
-    onCompleted: onProfileCompleted,
-    onError,
   });
 
   const [
@@ -234,7 +232,6 @@ export const UserProvider: React.FC<{ children: ReactNode }> = (props) => {
     },
   ] = useLazyQuery(ORDERS, {
     fetchPolicy: "network-only",
-    onError,
   });
 
   // Universal cart transformation function that can be used anywhere
@@ -369,8 +366,24 @@ export const UserProvider: React.FC<{ children: ReactNode }> = (props) => {
   // Setup subscription when profile is loaded
   useEffect(() => {
     if (!dataProfile) return;
+    if (dataProfile.profile) {
+      updateNotificationToken();
+    }
     subscribeOrders();
   }, [dataProfile, subscribeToMoreOrders]);
+
+  // Handle errors from useLazyQuery
+  useEffect(() => {
+    if (errorOrders) {
+      console.log("orders error", errorOrders.message);
+    }
+  }, [errorOrders]);
+
+  useEffect(() => {
+    if (errorProfile) {
+      console.log("profile error", errorProfile.message);
+    }
+  }, [errorProfile]);
 
   function onProfileCompleted(data: IProfileResponse) {
     if (data.profile) {

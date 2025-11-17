@@ -55,18 +55,18 @@
     "heading3": "Flexible hours",
     "subHeading3": "Choose your own hours and set your own schedule. Plus, no delivery experience required.",
     "TinyTile": {
-      "heading": "Become a Enatega rider",
+      "heading": "Become a Swift Delivery rider",
       "subText": "For riders"
     }
   },
   "Footer": {
-    "partnerWithEnatega": "Partner with Enatega",
+    "partnerWithSwiftDelivery": "Partner with Swift Delivery",
     "home": "Home",
     "forRiders": "For Riders",
     "forRestaurants": "For Restaurants",
     "products": "Products",
-    "enategaRider": "Enatega Rider",
-    "enategaRestaurant": "Enatega Restaurant",
+    "swiftDeliveryRider": "Swift Delivery Rider",
+    "swiftDeliveryRestaurant": "Swift Delivery Restaurant",
     "company": "Company",
     "aboutUs": "About us",
     "termsConditions": "Terms & Conditions",
@@ -415,7 +415,7 @@
   "please_enter_valid_otp_message": "Please enter a valid OTP",
   "verify_your_mobile_number_label": "Verify your Phone number",
   "otp_valid_for_10_minutes_label": "Valid for 10 minutes",
-  "your@email.com": "your@email.com",
+  "yourEmail": "your@email.com",
 
   "continue_label": "Continue",
   "resend_otp_label": "Resend OTP",
@@ -661,7 +661,7 @@
   "The_minimum_amount_of_(": "The minimum amount of (",
   ")_for_your_order_has_not_been_reached": ") for your order has not been reached.",
   "missing_address": "Missing Address",
-  "Select_your_address.": "Select your address.",
+  "select_your_address": "Select your address.",
 
   "DeliveryTime": "Delivery Time",
   "SalesTax": "Sales Tax",

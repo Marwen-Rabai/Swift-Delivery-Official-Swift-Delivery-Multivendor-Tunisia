@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Enatega Multi",
-    "scheme": "enategamultivendor",
+    "name": "Swift Delivery",
+    "scheme": "swift-delivery-customer",
     "version": "1.0.93",
-    "description": "Enatega is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
-    "slug": "enategamultivendor",
+    "description": "Swift Delivery is a modern food ordering app built in React Native using Expo for IOS and Android. It's designed with excellent user experience and follows best coding practices. Fully customizable for your food delivery business needs.",
+    "slug": "swift-delivery-customer",
     "owner": "ninjas_code",
     "experiments": {
       "buildCacheProvider": "eas"
@@ -28,7 +28,7 @@
       },
       "supportsTablet": true,
       "userInterfaceStyle": "automatic",
-      "bundleIdentifier": "com.enatega.multivendor",
+      "bundleIdentifier": "com.swift.delivery.customer",
       "config": {
         "googleMapsApiKey": "AIzaSyCcm7_Wd7uvmC9YnYLu2JHGWPt6z1MaL1E"
       },
@@ -55,11 +55,11 @@
       "color": "#90E36D",
       "icon": "./assets/not-icon.png",
       "androidMode": "default",
-      "androidCollapsedTitle": "Enatega Multivendor"
+      "androidCollapsedTitle": "Swift Delivery"
     },
     "android": {
       "versionCode": 93,
-      "package": "com.enatega.multivendor",
+      "package": "com.swift.delivery.customer",
       "userInterfaceStyle": "automatic",
       "googleServicesFile": "./google-services.json",
       "config": {
@@ -110,7 +110,7 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow $Enatega Multivendor to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow Swift Delivery to use your location."
         }
       ],
       "expo-font",

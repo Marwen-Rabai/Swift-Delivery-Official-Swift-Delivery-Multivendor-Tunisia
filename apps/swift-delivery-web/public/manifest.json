@@ -1,8 +1,8 @@
 {
-  "name": "Enatega MultiVendor",
+  "name": "Swift Delivery",
   "id":"/",
-  "short_name": "Enatega",
-  "description": "A Progressive Web App built with Next.js",
+  "short_name": "Swift Delivery",
+  "description": "Fast and reliable food delivery service",
   "start_url": "/",
   "background_color": "#000",
   "theme_color": "#94e469",
